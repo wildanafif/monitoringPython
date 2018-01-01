@@ -1,7 +1,7 @@
 import socket
 import psutil, time
 udpsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # membuat udp soket
-toaddress = ('192.168.1.3', 55555)  # socket address for 192.168.0.11 using port 55555
+toaddress = ('156.67.219.52', 55555)  # socket address for 192.168.0.11 using port 55555
 
 while 1:
     memory=psutil.virtual_memory()[2]
